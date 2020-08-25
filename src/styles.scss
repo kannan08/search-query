@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+$color_1: var(--text-light-color);
+$color_2: inherit;
+$color_3: var(--text-color);
+$font_family_1: Helvetica, Helvetica Neue, Arial, sans-serif;
+$background_color_1: var(--background-color);
+$background_color_2: transparent;
+body {
+//	background-image: url("https://edgewater-digital.com/wp-content/uploads/2018/10/Search-Engine-Marketing-Background.jpg"), url("https://www.ewebmarketing.com.au/wp-content/uploads/2016/07/tech-background-image-2.jpg");
+	font-size: 16px;
+	line-height: 1.2;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	color: $color_1;
+	background-color: $background_color_1;
+	font-family: $font_family_1;
+}
